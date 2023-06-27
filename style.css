@@ -1,9 +1,16 @@
-cabecalho{
+body
+ fonty-family: sans-serif;
+}
+*{ margin: 0px;
+padding: 0px;
+}
+
+.cabecalho{
     background-color: blueviolet;
-    color: wheat;
+    color: whiat;
 }
 
 .cabecalho.imagem{
-    width: 200px
+    width: 150px
     ;
 }
