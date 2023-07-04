@@ -1,16 +1,29 @@
-body
- fonty-family: sans-serif;
-}
+/*seletor universal*/
 *{ margin: 0px;
-padding: 0px;
-}
+padding: 0px;}
 
+/*corpo da pagina*/
+body{
+font-family: sans-serif;}
+
+/*secção cabeçalho*/
 .cabecalho{
     background-color: blueviolet;
-    color: whiat;
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+    justify-content: space-around;}
+
+.cabecalho-imagem{
+    width: 150px;
+    height: 100px;}
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 100px;
+    text-decoration: underline;}
+
+/*secção turma*/
+.turma{
+    background-image: linear-gradient(rgba);
 }
 
-.cabecalho.imagem{
-    width: 150px
-    ;
-}
